@@ -1,0 +1,11 @@
+1
+R
+1001
+2
+R
+1002
+1C
+2C
+
+UPDATE mysql.user SET Password=PASSWORD('@database#') WHERE User='root';
+SET PASSWORD FOR 'root'@'localhost' = PASSWORD('@database#');
